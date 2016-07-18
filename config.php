@@ -1,13 +1,13 @@
 <?php 
 	
 	// Define Your Base URL
-	define('URL', 'http://localhost/myphp.dev/FrameWork/JAPC/');
+	define('URL', '');
 	define('LIBS', 'libs/');
 
 
 	// Secure Hash Text
 	define('HASH_GENERAL_KEY', 'MixItUp');
-	define('HASH_PASSWORD_KEY', 'keepitsimpleisminetemplate');
+	define('HASH_PASSWORD_KEY', 'keepitsimple');
 
 
 	// Define Database Name
