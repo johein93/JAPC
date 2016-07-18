@@ -1,0 +1,38 @@
+#box{
+	background: #fff;
+	padding: 30px;
+	width: 300px;
+}
+#box p{
+	margin-top: 20px;
+}
+#box p a{
+	padding: 0 5px;
+}
+#box p a:hover{
+	text-decoration: underline;
+}
+.overlay{
+	position: absolute;
+	background: #000;
+	opacity: .6;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 99;
+	display: none;
+}
+#shadowbox{
+	background: #f00;
+	z-index: 999;
+	margin: auto;
+	width: 360px;
+	height: 480px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+}
